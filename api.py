@@ -47,7 +47,7 @@ def get_blog(blog_id):
         return jsonify(blog)
     else:
         return jsonify({"error": "Blog not found"}), 404
-
+ 
 # API endpoint to add a new blog
 @api_bp.route('/blogs', methods=['POST'])
 def add_blog():
