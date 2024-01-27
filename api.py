@@ -28,7 +28,6 @@ def get_blogs():
     return jsonify(blogs)
 
 # API endpoint to get a specific blog by ID
-# API endpoint to get a specific blog by ID
 @api_bp.route('/blogs/<int:blog_id>', methods=['GET'])
 def get_blog(blog_id):
     blogs = load_blogs_from_file()
