@@ -1,64 +1,70 @@
-{ 
-    "blogs":
-    [
-    {
-      "id": 1,
-      "author": "John Doe",
-      "title": "The Importance of Sleep",
-      "body": "Sleep is essential for our physical and mental health. It helps us repair our bodies, consolidate our memories, and regulate our emotions."
-    },
-    {
-      "id": 2,
-      "author": "Jane Doe",
-      "title": "How to Write a Blog Post",
-      "body": "Writing a blog post is a great way to share your thoughts and ideas with the world. Choose a topic, write an attention-grabbing headline, keep it concise, and use visuals to make it more interesting."
-    },
-    {
-      "id": 3,
-      "author": "John Smith",
-      "title": "The Best Places to Travel in the World",
-      "body": "Discover amazing travel destinations like the Maldives, Machu Picchu, and the Great Barrier Reef. These places offer breathtaking experiences and natural beauty."
-    },
-    {
-      "id": 4,
-      "author": "Mary Jones",
-      "title": "How to Cook a Perfect Steak",
-      "body": "Cooking a perfect steak involves choosing a good quality cut, allowing it to come to room temperature, searing it on high heat, and letting it rest before serving."
-    },
-    {
-      "id": 5,
-      "author": "Bill Johnson",
-      "title": "How to Build a Treehouse",
-      "body": "Building a treehouse is a fun and rewarding project. Select a strong tree, ensure safety, use durable materials, and design it according to your needs and budget."
-    },
-    {
-      "id": 6,
-      "author": "Susan Brown",
-      "title": "How to Start a Blog",
-      "body": "Starting a blog is a great way to share your ideas. Choose a topic, select a platform, create a blog name and design, write your first post, and promote it on various channels."
-    },
-    {
-      "id": 7,
-      "author": "David Williams",
-      "title": "How to Lose Weight",
-      "body": "Losing weight requires dedication. Incorporate a balanced diet, regular exercise, and healthy habits into your lifestyle for successful weight loss."
-    },
-    {
-      "id": 8,
-      "author": "Michael Johnson",
-      "title": "How to Get a Job",
-      "body": "Getting a job involves preparing a strong resume, enhancing your skills, networking, and showcasing your qualifications during interviews."
-    },
-    {
-      "id": 9,
-      "author": "Emily Wilson",
-      "title": "Tips for Home Organization",
-      "body": "Organize your home by decluttering, using storage solutions, creating routines, and maintaining a clean and tidy living space."
-    },
-    {
-      "id": 10,
-      "author": "Daniel Brown",
-      "title": "How to Improve Productivity",
-      "body": "Boost productivity by setting clear goals, prioritizing tasks, managing time effectively, avoiding multitasking, and taking regular breaks."
-    }]
+{
+    "blogs": [
+        {
+            "id": 1,
+            "author": "John Doe",
+            "title": "The Importance of Sleep",
+            "body": "Sleep is essential for our physical and mental health. It helps us repair our bodies, consolidate our memories, and regulate our emotions."
+        },
+        {
+            "id": 2,
+            "author": "Jane Doe",
+            "title": "How to Write a Blog Post",
+            "body": "Writing a blog post is a great way to share your thoughts and ideas with the world. Choose a topic, write an attention-grabbing headline, keep it concise, and use visuals to make it more interesting."
+        },
+        {
+            "id": 3,
+            "author": "John Smith",
+            "title": "The Best Places to Travel in the World",
+            "body": "Discover amazing travel destinations like the Maldives, Machu Picchu, and the Great Barrier Reef. These places offer breathtaking experiences and natural beauty."
+        },
+        {
+            "id": 4,
+            "author": "Mary Jones",
+            "title": "How to Cook a Perfect Steak",
+            "body": "Cooking a perfect steak involves choosing a good quality cut, allowing it to come to room temperature, searing it on high heat, and letting it rest before serving."
+        },
+        {
+            "id": 5,
+            "author": "Bill Johnson",
+            "title": "How to Build a Treehouse",
+            "body": "Building a treehouse is a fun and rewarding project. Select a strong tree, ensure safety, use durable materials, and design it according to your needs and budget."
+        },
+        {
+            "id": 6,
+            "author": "Susan Brown",
+            "title": "How to Start a Blog",
+            "body": "Starting a blog is a great way to share your ideas. Choose a topic, select a platform, create a blog name and design, write your first post, and promote it on various channels."
+        },
+        {
+            "id": 7,
+            "author": "David Williams",
+            "title": "How to Lose Weight",
+            "body": "Losing weight requires dedication. Incorporate a balanced diet, regular exercise, and healthy habits into your lifestyle for successful weight loss."
+        },
+        {
+            "id": 8,
+            "author": "Michael Johnson",
+            "title": "How to Get a Job",
+            "body": "Getting a job involves preparing a strong resume, enhancing your skills, networking, and showcasing your qualifications during interviews."
+        },
+        {
+            "id": 9,
+            "author": "Emily Wilson",
+            "title": "Tips for Home Organization",
+            "body": "Organize your home by decluttering, using storage solutions, creating routines, and maintaining a clean and tidy living space."
+        },
+        {
+            "id": 10,
+            "author": "Daniel Brown",
+            "title": "How to Improve Productivity",
+            "body": "Boost productivity by setting clear goals, prioritizing tasks, managing time effectively, avoiding multitasking, and taking regular breaks."
+        },
+        {
+            "id": 11,
+            "author": "rome",
+            "title": "grey skies",
+            "body": "when the skies were grey my heart melted with love and wonders at how magnificent the world is"
+        }
+    ]
 }
