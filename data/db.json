@@ -1,12 +1,6 @@
 {
     "blogs": [
         {
-            "id": 1,
-            "author": "John Doe",
-            "title": "The Importance of Sleep",
-            "body": "Sleep is essential for our physical and mental health. It helps us repair our bodies, consolidate our memories, and regulate our emotions."
-        },
-        {
             "id": 2,
             "author": "Jane Doe",
             "title": "How to Write a Blog Post",
@@ -65,6 +59,12 @@
             "author": "rome",
             "title": "grey skies",
             "body": "when the skies were grey my heart melted with love and wonders at how magnificent the world is"
+        },
+        {
+            "id": 13,
+            "author": "User",
+            "title": "Wheels!!",
+            "body": "i find myself staring at cars and particularly there wheels, round , rubbery and flaccid, they remind me of how far we've come as a human race."
         }
     ]
 }

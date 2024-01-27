@@ -71,3 +71,23 @@ def add_blog():
         return jsonify({"message": "Blog added successfully"}), 201
     except Exception as e:
         return jsonify({"error": f"An unexpected error occurred: {str(e)}"}), 500
+    
+
+@api_bp.route('/blogs/<int:blog_id>', methods=['DELETE'])
+def delete_blog(blog_id):
+    try:
+        blogs = load_blogs_from_file()
+        index_to_remove = None
+        for i, blog in enumerate(blogs['blogs']):
+            if blog['id'] == blog_id:
+                index_to_remove = i
+                break
+
+        if index_to_remove is not None:
+            del blogs['blogs'][index_to_remove]
+            save_blogs_to_file(blogs)
+            return jsonify({"message": f"Blog with id {blog_id} deleted successfully"}), 200
+        else:
+            return jsonify({"error": f"Blog with id {blog_id} not found"}), 404
+    except Exception as e:
+        return jsonify({"error": f"An unexpected error occurred: {str(e)}"}), 500
