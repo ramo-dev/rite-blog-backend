@@ -1,6 +1,7 @@
 from flask import Flask
 from api import api_bp
 
+
 def create_app():
     app = Flask(__name__)
 
@@ -11,6 +12,3 @@ def create_app():
 
 # Create the app instance
 app = create_app()
-
-if __name__ == '__main__':
-    app.run(debug=True)
